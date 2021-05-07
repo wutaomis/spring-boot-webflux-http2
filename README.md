@@ -4,7 +4,7 @@
 
 | module | description |
 |:-------|:------------|
-|[reactive-mongo](./reactive-mongo/README.md)| 基本的 WebFlux Demo，使用 REST 接口，MongoDB 作为存储|
+|[reactive-mongo](./reactive-mongo/README.md)| 基本的 WebFlux Demo，使用 REST 接口，MongoDB 作为存储，support http2|
 |[reactive-redis](./reactive-redis/README.md)| 基本的 WebFlux Demo，使用 REST 接口，Redis 作为存储|
 |[reactive-router](./reactive-router/README.md)| 使用 WebFlux 的路由|
 |[reactive-security](./reactive-security/README.md)| 使用 Spring Security，Spring Session，MongoDB 作为存储 |
