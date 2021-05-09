@@ -23,6 +23,7 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        /*
         postRepository.deleteAll();
         Stream.of("Post One", "Post Two")
                 .forEach(title -> postRepository.save(
@@ -32,5 +33,6 @@ public class DataInitializer implements CommandLineRunner {
                                 .content("Content of " + title)
                                 .build()
                 ));
+         */
     }
 }

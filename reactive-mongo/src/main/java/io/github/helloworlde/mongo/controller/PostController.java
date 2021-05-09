@@ -33,7 +33,7 @@ public class PostController {
     public Mono<Post> get(@PathVariable("id") String id) {
         LOG.info("Call get " + id);
         try{
-            if (id.equals("609343a24b79c21c4431a2b0")) {
+            if (id.equals("609280e44ee335121003b02b")) {
                 Thread.sleep(1000);
             }
             else {
@@ -44,6 +44,7 @@ public class PostController {
             e.printStackTrace();
         }
 
+        postRepository.find
         return postRepository.findById(id)
                 .switchIfEmpty(Mono.error(new NotFoundException(id)));
     }
